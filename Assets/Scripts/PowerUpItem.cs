@@ -11,7 +11,6 @@ public class PowerUpItem : MonoBehaviour
     [SerializeField] float powerValue;
     Vector3 launchPosition;
     Vector3 initPosition;
-    CircleCollider2D hitBox;
     [SerializeField] float padding = 4;
     [SerializeField] float lifeTime = 5;
     private void Awake()
